@@ -9,7 +9,7 @@ import matrix.*;
 
 /**
  *
- * @author crystal
+ * @author Bence Erős <crystal@cyclonephp.org>
  */
 public class DeterminantProcessorFactory {
 

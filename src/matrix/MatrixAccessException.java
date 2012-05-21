@@ -7,7 +7,7 @@ package matrix;
 
 /**
  *
- * @author crystal
+ * @author Bence Erős <crystal@cyclonephp.org>
  */
 public class MatrixAccessException extends RuntimeException {
 

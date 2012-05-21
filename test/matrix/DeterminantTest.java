@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author crystal
+ * @author Bence Erős <crystal@cyclonephp.org>
  */
 public class DeterminantTest {
 

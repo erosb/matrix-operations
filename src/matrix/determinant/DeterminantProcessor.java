@@ -9,7 +9,7 @@ import matrix.Matrix;
 
 /**
  *
- * @author crystal
+ * @author Bence Erős <crystal@cyclonephp.org>
  */
 public interface DeterminantProcessor {
 

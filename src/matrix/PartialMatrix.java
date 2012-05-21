@@ -9,7 +9,7 @@ import java.util.*;
 
 /**
  *
- * @author crystal
+ * @author Bence Erős <crystal@cyclonephp.org>
  */
 public class PartialMatrix implements Matrix {
 
