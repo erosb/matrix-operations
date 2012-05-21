@@ -1,13 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix;
 
 import java.util.*;
 
 /**
+ * Represents a partial matrix which is a submatrix of an other
+ * matrix.
  *
  * @author Bence Erős <crystal@cyclonephp.org>
  */
@@ -24,6 +21,14 @@ public class PartialMatrix implements Matrix {
 
     private int right;
 
+    /**
+     *
+     * @param data the parent matrix
+     * @param top the top coordinate of the represented submatrix in the parent matrix
+     * @param left the left coordinate of the represented submatrix in the parent matrix
+     * @param bottom the bottom coordinate of the represented submatrix in the parent matrix
+     * @param right the right coordinate of the represented submatrix in the parent matrix
+     */
     public PartialMatrix(Matrix data, int top, int left, int bottom, int right) {
         this.data = data;
         this.top = top;

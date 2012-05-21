@@ -1,13 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix.determinant;
 
 import matrix.Matrix;
 
 /**
+ * Well it is actually not yet implemented..
  *
  * @author Bence Erős <crystal@cyclonephp.org>
  */

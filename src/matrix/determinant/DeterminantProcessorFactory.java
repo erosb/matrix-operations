@@ -21,7 +21,7 @@ public class DeterminantProcessorFactory {
         if (size == 2 || size == 3)
             return DeterminantProcessorSarus.INSTANCE;
 
-        return DeterminantProcessorExposition.INSTANCE;
+        return DeterminantProcessorExpansion.INSTANCE;
     }
 
 }

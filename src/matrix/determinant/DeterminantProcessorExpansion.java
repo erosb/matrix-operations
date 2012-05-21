@@ -1,20 +1,20 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix.determinant;
 
 import matrix.*;
 /**
+ * A matrix determinant calculator implementing expansion by minors.
  *
+ * @see http://www.intmath.com/matrices-determinants/1-determinants.php
  * @author Bence Erős <crystal@cyclonephp.org>
  */
-public class DeterminantProcessorExposition implements DeterminantProcessor {
+public class DeterminantProcessorExpansion implements DeterminantProcessor {
 
-    public static DeterminantProcessorExposition INSTANCE = new DeterminantProcessorExposition();
+    /**
+     * Singleton instance.
+     */
+    public static DeterminantProcessorExpansion INSTANCE = new DeterminantProcessorExpansion();
 
-    private DeterminantProcessorExposition() {
+    private DeterminantProcessorExpansion() {
         
     }
 
@@ -40,14 +40,14 @@ public class DeterminantProcessorExposition implements DeterminantProcessor {
             }
         }
         if (maxZeroCountColumn > maxZeroCountRow) {
-            return exposeByColumn(m, maxZeroCountColumn);
+            return expandByColumn(m, maxZeroCountColumn);
         } else {
-            return exposeByRow(m, maxZeroCountRow);
+            return expandByRow(m, maxZeroCountRow);
         }
 
     }
 
-    private double exposeByColumn(Matrix m, int maxZeroCountColumn) {
+    private double expandByColumn(Matrix m, int maxZeroCountColumn) {
         double rval = 0;
         int i = maxZeroCountColumn;
         for (int j = 0; j < m.getHeight(); ++j) {
@@ -61,7 +61,7 @@ public class DeterminantProcessorExposition implements DeterminantProcessor {
         return rval;
     }
 
-    private double exposeByRow(Matrix m, int maxZeroCountRow) {
+    private double expandByRow(Matrix m, int maxZeroCountRow) {
         double rval = 0;
         int j = maxZeroCountRow;
         for (int i = 0; i < m.getWidth(); ++i) {

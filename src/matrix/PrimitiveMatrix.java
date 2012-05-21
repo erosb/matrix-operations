@@ -6,6 +6,8 @@
 package matrix;
 
 /**
+ * A simple matrix representation, it uses a two-dimensional double array
+ * to represent matrix values.
  *
  * @author Bence Erős <crystal@cyclonephp.org>
  */

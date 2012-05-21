@@ -1,15 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix.determinant;
 
 import matrix.MatrixException;
 import matrix.Matrix;
 
 /**
+ * A matrix determinant calculator implementing the rule of Sarrus.
  *
+ * @see http://en.wikipedia.org/wiki/Rule_of_Sarrus
  * @author Bence Erős <crystal@cyclonephp.org>
  */
 public class DeterminantProcessorSarus implements DeterminantProcessor {

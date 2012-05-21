@@ -1,11 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix;
 
 /**
+ * Exception class, its instances are thrown are Matrix interface implementations'
+ * get() and set() methods if the given coordinates are out of the bounds of
+ * the matrix.
  *
  * @author Bence Erős <crystal@cyclonephp.org>
  */

@@ -1,13 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package matrix.determinant;
 
 import matrix.Matrix;
 
 /**
+ * Implementations of this interface are able to calculate the determinant
+ * of a matrix. The implementing classes differ in the algorithm they use
+ * for calculation.
  *
  * @author Bence Erős <crystal@cyclonephp.org>
  */
