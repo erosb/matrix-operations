@@ -14,6 +14,10 @@ public class DeterminantProcessorExpansion implements DeterminantProcessor {
      */
     public static DeterminantProcessorExpansion INSTANCE = new DeterminantProcessorExpansion();
 
+    /**
+     * The singleton instance must be used, the constructor is made private to
+     * forbid further instantiations.
+     */
     private DeterminantProcessorExpansion() {
         
     }
