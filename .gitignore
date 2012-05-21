@@ -1,3 +1,5 @@
 build
 matrix-classlib.zip
 dist
+manifest.mf
+nbproject
