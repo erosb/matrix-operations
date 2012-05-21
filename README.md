@@ -11,9 +11,9 @@ computation alorithm.
 
 The software can perform the following operations:
 
-	* calculate the inverse of a given matrix
-	* calculate the determinant of a given matrix
-	* calculate the condition number of a given matrix
+* calculate the inverse of a given matrix
+* calculate the determinant of a given matrix
+* calculate the condition number of a given matrix
 	
 Although this project is used as a kind of example on Java programming in general sadly
 it is math-related (to be honest I really hate math). I learned the underlying theory
@@ -22,11 +22,11 @@ of Debrecen, but the following resources are also easy to understand (and availa
 English):
 
 	
-	* matrix inversion: http://www.purplemath.com/modules/mtrxinvr.htm
-	* matrix determinant calculation:
-		- the Rule of Sarrus for 2x2 and 3x3 matrices: http://en.wikipedia.org/wiki/Rule_of_Sarrus
-		- matrix expansion by minors for bigger matrices: http://www.intmath.com/matrices-determinants/1-determinants.php
-	* matrix condition number: http://en.wikipedia.org/wiki/Condition_number#Matrices
+* matrix inversion: http://www.purplemath.com/modules/mtrxinvr.htm
+* matrix determinant calculation:
+	- the Rule of Sarrus for 2x2 and 3x3 matrices: http://en.wikipedia.org/wiki/Rule_of_Sarrus
+	- matrix expansion by minors for bigger matrices: http://www.intmath.com/matrices-determinants/1-determinants.php
+* matrix condition number: http://en.wikipedia.org/wiki/Condition_number#Matrices
 	
 
 Brief guidelines for examining the code
@@ -50,6 +50,6 @@ algorithm is a more complex topic.
 Misc
 ----
 
-	* unittests may be useful for understanding
-	* the software can be used as a class library too - but I'm fairly sure some much
+* unittests may be useful for understanding
+* the software can be used as a class library too - but I'm fairly sure some much
 		better quality java libs are available for these tasks.
